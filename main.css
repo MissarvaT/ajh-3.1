@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+  }
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+
+    cursor:  url(hammer1.svg), crosshair;
+}
+
+.hole {
+    width: 25%;
+    max-height: 120px;
+}
+
+.character {
+    position: absolute;
+}
+
+.counters {
+    text-align: center;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
