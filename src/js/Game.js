@@ -28,12 +28,12 @@ export default class Game {
       const container = document.createElement('div');
       container.classList.add('hole');
       const img = document.createElement('img');
-      img.src = 'src/img/tile.png';
+      img.src = './tile.png';
       container.appendChild(img);
       field.appendChild(container);
     }
     const character = document.createElement('img');
-    character.src = 'src/img/goblin.png';
+    character.src = './goblin.png';
     character.classList.add('character');
     const array = Array.from(field.getElementsByClassName('hole'));
 
